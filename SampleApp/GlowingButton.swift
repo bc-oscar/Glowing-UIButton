@@ -9,7 +9,7 @@
 import UIKit
 
 class GlowingButton: UIButton {
-
+    
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -21,7 +21,7 @@ class GlowingButton: UIButton {
     // Creates a glow effect in the button by setting its layer shadow properties
     func startGlowWithCGColor (growColor:CGColor) {
         self.layer.shadowColor = growColor
-        self.layer.shadowRadius = 9.0
+        self.layer.shadowRadius = 10.0
         self.layer.shadowOpacity = 1.0
         self.layer.shadowOffset = CGSizeZero
         self.layer.masksToBounds = false

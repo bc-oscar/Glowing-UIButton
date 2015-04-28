@@ -16,7 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        customButton.startGlowWithCGColor(UIColor.whiteColor().CGColor)
+        // Makes the glowing effect appear on the title
+        // Remove if you want the glowing effect to be on the 
+        // button bounds
+        customButton.backgroundColor = UIColor.clearColor()
+        
+        customButton.startGlowWithCGColor(UIColor.redColor().CGColor)
         
         
     }
